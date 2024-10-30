@@ -1,0 +1,236 @@
+@charset "utf-8";
+/*
+ログイン画面
+*/
+.login * {
+	margin: auto;
+	padding: auto;
+}
+body.login {
+	background: #F2F9FA;
+}
+body.login div#login {
+	background: #fff;
+	width: 600px;
+	max-width: 100%;
+}
+body.login div#login h1 {}
+body.login div#login h1:after {
+	content: "ログイン";
+	font-size: 16px;
+}
+
+body.login div#login h1 a {
+	display: none;
+}
+body.login div#login form {
+	border: none;
+	background: #fff;
+	box-shadow: none;
+	max-width: 320px;
+	margin: auto;
+	padding: 24px;
+}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {
+	color: #111111;
+	font-size: 14px;
+	padding: 4px 0 4px 0;
+}
+body.login div#login form#loginform div label {
+	color: #111111;
+	font-size: 14px;
+	padding: 4px 0 4px 0;
+}
+body.login div#login form#loginform input {
+	border:1px solid #BFBFBF;
+}
+body.login div#login form#loginform input#user_login {
+	font-size: inherit;
+}
+body.login div#login form#loginform input#user_pass {
+	font-size: inherit;
+}
+body.login div#login form#loginform p.forgetmenot {
+	float:none;
+	display: none;
+}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {
+	text-align: center;
+}
+body.login div#login form#loginform p.submit input#wp-submit {
+	float: none;
+	display: inline-block;
+	width: 232px;
+	margin: 20px 0 0 0;
+	color: #fff;
+	background-color: #27BECC;
+	border: none;
+	font-size: 16px;
+	max-width :100%;
+	border-radius: 4px;
+}
+@media (max-width: 576px) {
+	body.login div#login form#loginform p.submit input#wp-submit {
+		width: 272px;
+	}
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover {
+	background-color: #27BECC;
+	opacity: 0.6;
+}
+body.login div#login p#nav {
+	text-align: center;
+	margin: 0;
+	padding: 0 0 24px 0;
+}
+body.login div#login p#nav a {
+	font-size: 12px;
+	color: #27BECC;
+}
+body.login div#login p#backtoblog {
+	display: none;
+}
+body.login div#login p#backtoblog a {}
+
+.language-switcher {
+	display: none;
+}
+.login .button-primary:hover {
+	background-color: #0b5ed7;
+	border-color: #0a58ca;
+}
+.login .button.wp-hide-pw {
+}
+#iihlms-accepting-registration-nav {
+	font-size: 14px;
+	color: #111111;
+	text-align: center;
+	padding: 24px 0 16px 0;
+}
+#iihlms-accepting-registration {
+	font-size: 14px;
+	color: #27BECC;
+	text-align: center;
+	padding: 0 0 48px 0;
+}
+#iihlms-accepting-registration a {
+	font-size: 14px;
+	color: #27BECC;
+	text-align: center;
+	text-decoration: none;
+}
+.iihlms-login-hr {
+	background-color: #D9D9D9;
+	border: none;
+	height: 1px;
+	width: 272px;
+	text-align: center;
+	max-width: 100%;
+}
+.iihlms-login-header {
+	background-color: #E6E6E6;
+	height: 72px;
+	margin: 0 0 36px 0;
+}
+@media (max-width: 576px) {
+	.iihlms-login-header {
+		margin: 0;
+	}
+}
+.iihlms-login-header-title-text-wrap {
+	font-size: 16px;
+	color: #222222;
+	padding: 24px 0 0 12px;
+}
+.iihlms-login-header-title-text {
+	font-size: 16px;
+	text-decoration: none;
+	color: #222222;
+}
+.iihlms-login-header-title-text:hover {
+	opacity: 0.6;
+	color: #222222;
+}
+.iihlms-login-footer {
+	text-align: center;
+	padding: 64px 0 16px 0;
+	font-size: 12px;
+	background: #F2F9FA;
+}
+.login .message {
+	border: none;
+	box-shadow: none;
+	max-width: 320px;
+	margin: auto;
+	padding: 36px 24px 0 24px;
+}
+.login #login_error {
+	border: none;
+	box-shadow: none;
+	width: 320px;
+	margin: auto;
+	padding: 36px 24px 0 24px;
+}
+.login #login_error strong {
+	color: #f00;
+}
+#wp-submit {
+	float: none;
+	display: inline-block;
+	width: 232px;
+	margin: 20px 0 0 0;
+	color: #fff;
+	background-color: #27BECC;
+	border: none;
+	font-size: 16px;
+	max-width: 100%;
+	border-radius: 4px;
+}
+@media (max-width: 576px) {
+	#wp-submit {
+		width: 272px;
+	}
+}
+#wp-submit:hover {
+	background-color: #27BECC;
+	opacity: 0.6;
+}
+#login form p.submit {
+	text-align: center;
+}
+form#lostpasswordform input#user_login {
+	font-size: inherit;
+}
+body.login div#login p#nav .nav-backtologin a {
+	color: #111111;
+}
+body.login-action-lostpassword div#login h1:after {
+	content: "パスワード再発行";
+	font-size: 16px;
+}
+body.login-action-checkemail div#login h1:after {
+	content: "パスワード再発行メールを送信しました";
+	font-size: 16px;
+}
+body.login-action-checkemail .message {
+	padding: 36px 0 48px 0;
+}
+body.login-action-rp div#login h1:after {
+	content: "パスワード再発行";
+	font-size: 16px;
+}
+.reset-pass-submit {
+	text-align: center;
+}
+body.login-action-rp .reset-pass-submit .wp-generate-pw {
+	margin: 0 0 24px 0;
+}
+body.login-action-rp #wp-submit {
+	margin: auto;
+}
+body.login-action-resetpass .iihlms-login-footer {
+	margin: 36px 0 0 0;
+}

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.iihlms-checkbox-label{
+	display:block;
+	margin-bottom:0.5em;
+}
+.iihlms-radio-label{
+	display:block;
+	margin-bottom:0.5em;
+}
+
+.iihlms-p{
+	margin-bottom:0.5em;
+}
+
+.iihlms-label{
+	display:block;
+	margin-bottom:0.5em;
+}
+
+.iihlms-select-mutiple{
+	width: 100%;
+	max-width: 100% !important;
+	min-height: 250px !important;
+	max-height: 250px !important;
+	overflow-y: scroll;
+}
+.iihlms-select-multi-left{
+	width: 47%;
+	float: left;
+}
+.form-table td .iihlms-select-multi-left{
+    padding: 0;
+}
+.iihlms-select-multi-middle{
+	width: 5%;
+	float: left;
+	text-align: center;
+	margin-top: 10%;
+}
+.form-table td .iihlms-select-multi-middle{
+	padding: 0;
+}
+.iihlms-select-multi-right{
+	width: 47%;
+	float: left;
+}
+.form-table td .iihlms-select-multi-right{
+    padding: 0;
+}
+.iihlms-select-multi-table{
+	width: 100%;
+}
+
+.iihlms-select-search {
+	width: 100%;
+}
+
+.iihlms-admin-message {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+#iihlms-course-sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 70%;
+}
+#iihlms-course-sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 0.3em;
+	padding-left: 1em;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: move;
+}
+
+#iihlms-lesson-sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 70%;
+}
+#iihlms-lesson-sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 0.3em;
+	padding-left: 1em;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: move;
+}
+.iihlms-disp-after-title-description {
+	padding: 12px 0 0 0;
+	margin: 0;
+}
+
+.ui-widget-content {
+	border: none;
+	background: none;
+}
+.ui-widget.ui-widget-content {
+	border: none;
+}
+.ui-widget-header {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+.ui-tabs .ui-tabs-panel {
+	padding: 0;
+}
+.iihlms-heading {
+	display: block;
+	padding: 16px 0 0 0;
+}
+.iihlms-heading-inline {
+	display: inline-block;
+}
+#iihlms-wrap {
+	margin: 10px 20px 0 0;
+}
+#wpfooter {
+	position: unset;
+}
+#iihlms-wrap h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px;
+    line-height: 1.3;
+}
+
+.iihlms-custom-text {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .iihlms-custom-text {
+        width: 100%;
+    }
+}
